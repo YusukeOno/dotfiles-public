@@ -6,6 +6,9 @@
 
 ```
 brew install awscli
+brew install findutils
+brew install gnu-tar
+brew install grep
 brew install fzf
 brew install pyenv
 ```
