@@ -112,3 +112,9 @@ fshow() {
                 {}
 FZF-EOF"
 }
+
+# Gmail Permalink Maker
+# Usage: mkgp [Message-ID]
+function mkgp {
+    ruby -r cgi -e "puts 'https://mail.google.com/mail/u/0/?zx=2loke8hd7o7q#search/in%3Aanywhere+rfc822msgid%3A' + CGI.escape(\""$1"\")"
+}
