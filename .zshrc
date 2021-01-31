@@ -133,3 +133,10 @@ function cd(){
     builtin cd $@ && ls;
 }
 
+# zsh setting
+setopt append_history
+setopt extended_history
+setopt hist_ignore_all_dups
+setopt hist_no_store
+setopt hist_reduce_blanks
+setopt share_history
