@@ -54,6 +54,7 @@ fssh() {
         return 1
     fi
 
+    badge ${sshLoginHost}
     ssh ${sshLoginHost}
 }
 alias fsshls='cat ~/.ssh/config | fgrep Host\ | awk '\''{print $2}'\'''
@@ -117,4 +118,11 @@ FZF-EOF"
 # Usage: mkgp [Message-ID]
 function mkgp {
     ruby -r cgi -e "puts 'https://mail.google.com/mail/u/0/?zx=2loke8hd7o7q#search/in%3Aanywhere+rfc822msgid%3A' + CGI.escape(\""$1"\")"
+}
+
+# item2 Badge
+# https://www.rasukarusan.com/entry/2019/04/13/180443
+function badge() {
+    printf "\e]1337;SetBadgeFormat=%s\a"\
+    $(echo -n "$1" | base64)
 }
