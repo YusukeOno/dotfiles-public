@@ -126,3 +126,10 @@ function badge() {
     printf "\e]1337;SetBadgeFormat=%s\a"\
     $(echo -n "$1" | base64)
 }
+
+# cd & ls
+# https://qiita.com/Kakuni/items/a8025e075926272f491d
+function cd(){
+    builtin cd $@ && ls;
+}
+
