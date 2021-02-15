@@ -17,7 +17,7 @@ brew install zsh-completions
 ## Deploy
 
 ```
-co -i .zshenv ~/.zshenv
+cp -i .zshenv ~/.zshenv
 cp -i .zshrc ~/.zshrc
 cp -i .vimrc ~/.vimrc
 ```
