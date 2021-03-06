@@ -141,3 +141,6 @@ setopt hist_no_store
 setopt hist_reduce_blanks
 setopt share_history
 zstyle ':completion:*:default' menu select=2
+
+# https://analytics-note.xyz/mac/mac-lscolors/
+export LSCOLORS=gxfxcxdxbxegedabagacad
