@@ -145,3 +145,9 @@ zstyle ':completion:*:default' menu select=2
 # https://analytics-note.xyz/mac/mac-lscolors/
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
+# https://blog.qnyp.com/2013/05/14/zsh-git-completion/
+fpath=($(brew --prefix)/share/zsh/site-functions $fpath)
+
+autoload -U compinit
+compinit -u
+
