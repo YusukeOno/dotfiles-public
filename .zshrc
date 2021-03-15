@@ -133,6 +133,12 @@ function cd(){
     builtin cd $@ && ls;
 }
 
+# colordiff
+# https://qiita.com/trapple/items/6657b903bf027464e70d
+if [[ -x `which colordiff` ]]; then
+  alias diff='colordiff'
+fi
+
 # zsh setting
 setopt append_history
 setopt extended_history
