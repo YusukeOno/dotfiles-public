@@ -12,7 +12,6 @@ brew install grep
 brew install fzf
 brew install pyenv
 brew install zsh-completions
-brew install colordiff
 ```
 
 ## Deploy
