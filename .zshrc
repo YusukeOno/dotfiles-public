@@ -142,6 +142,10 @@ setopt hist_reduce_blanks
 setopt share_history
 zstyle ':completion:*:default' menu select=2
 
+# https://timesaving.hatenablog.com/entry/2020/12/05/210000
+export HISTSIZE=100000
+export SAVEHIST=100000
+
 # https://analytics-note.xyz/mac/mac-lscolors/
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
