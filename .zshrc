@@ -8,9 +8,11 @@ export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
 export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/findutils/libexec/gnuman:$MANPATH"
 export MANPATH="/usr/local/opt/gnu-tar/libexec/gnuman:$MANPATH"
 export MANPATH="/usr/local/opt/grep/libexec/gnuman:$MANPATH"
+export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
 
 # Use pyenv
 # https://qiita.com/1000ch/items/93841f76ea52551b6a97
