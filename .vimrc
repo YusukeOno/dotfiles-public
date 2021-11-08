@@ -1,4 +1,4 @@
-colorscheme molokai
+colorscheme elflord
 set background=dark
 set cursorcolumn
 set cursorline
