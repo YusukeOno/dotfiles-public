@@ -135,6 +135,9 @@ function cd(){
     builtin cd $@ && ls;
 }
 
+# zsh-autosuggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # zsh setting
 setopt append_history
 setopt extended_history
